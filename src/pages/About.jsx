@@ -5,25 +5,32 @@ import {
 
 import { CTA } from "../components";
 import { experiences, skills } from "../constants";
+import { portret } from "../assets/images";
 
 import "react-vertical-timeline-component/style.min.css";
 
 const About = () => {
   return (
     <section className='max-container'>
-      <h1 className='head-text'>
+      <h1 className='head-text flex items-center gap-3'>
         Hello, I'm{" "}
         <span className='blue-gradient_text font-semibold drop-shadow'>
-          {" "}
-          Adrian
-        </span>{" "}
-        👋
+          Andrei Enescu
+        </span>
+        <img
+          src={portret}
+          alt="Andrei Enescu"
+          className='w-1/3 h-1/3 rounded-full object-cover inline-block' // Slightly larger size, aligned properly
+        />
       </h1>
 
       <div className='mt-5 flex flex-col gap-3 text-slate-500'>
         <p>
-          Software Engineer based in Croatia, specializing in technical
-          education through hands-on learning and building applications.
+        Software developer always looking for new challenges, 
+        with experience in backend, frontend, and database technologies. 
+        My passion for interactive design has led me to focus on frontend development, 
+        where I can craft intuitive and engaging user experiences. This shift reflects my drive to build modern, 
+        user-friendly interfaces and bring innovation and quality to every project I work on.
         </p>
       </div>
 

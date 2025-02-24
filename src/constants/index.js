@@ -1,40 +1,88 @@
-import { meta, shopify, starbucks, tesla } from "../assets/images";
+import { golfstudio, curteadeconturi, htss, opes, stejarii, lacdeverde, shopify, starbucks, tesla } from "../assets/images";
 import {
     car,
     contact,
     css,
     estate,
-    express,
     git,
     github,
     html,
     javascript,
     linkedin,
-    mongodb,
-    motion,
-    mui,
-    nextjs,
     nodejs,
     pricewise,
     react,
-    redux,
     sass,
     snapgram,
     summiz,
-    tailwindcss,
     threads,
-    typescript
+    typescript,
+    dotnet,
+    angular,
+    figma,
+    java,
+    photoshop,
+    powerapps,
+    powerautomate,
+    premiere_pro,
+    postgresql,
+    my_sql
 } from "../assets/icons";
 
 export const skills = [
+    {
+        imageUrl: html,
+        name: "HTML",
+        type: "Frontend",
+    },
     {
         imageUrl: css,
         name: "CSS",
         type: "Frontend",
     },
     {
-        imageUrl: express,
-        name: "Express",
+        imageUrl: angular,
+        name: "Angular",
+        type: "Frontend",
+    },
+    {
+        imageUrl: react,
+        name: "React",
+        type: "Frontend",
+    },
+    {
+        imageUrl: figma,
+        name: "Figma",
+        type: "Frontend",
+    },
+    {
+        imageUrl: sass,
+        name: "Sass",
+        type: "Frontend",
+    },
+    {
+        imageUrl: javascript,
+        name: "Javascript",
+        type: "Frontend",
+    },
+    {
+        imageUrl: typescript,
+        name: "TypeScript",
+        type: "Frontend",
+    },
+    {
+        imageUrl: dotnet,
+        name: "dotnet",
+        type: "Backend",
+    },
+    {
+        imageUrl: java,
+        name: "Java",
+        type: "Backend",
+    },
+    {
+        imageUrl: nodejs,
+        name: "Node.js",
         type: "Backend",
     },
     {
@@ -48,65 +96,36 @@ export const skills = [
         type: "Version Control",
     },
     {
-        imageUrl: html,
-        name: "HTML",
-        type: "Frontend",
-    },
-    {
-        imageUrl: javascript,
-        name: "JavaScript",
-        type: "Frontend",
-    },
-    {
-        imageUrl: mongodb,
-        name: "MongoDB",
+        imageUrl: postgresql,
+        name: "Postgresql",
         type: "Database",
     },
     {
-        imageUrl: motion,
-        name: "Motion",
-        type: "Animation",
+        imageUrl: my_sql,
+        name: "MySql",
+        type: "Database",
     },
     {
-        imageUrl: mui,
-        name: "Material-UI",
-        type: "Frontend",
+        imageUrl: powerapps,
+        name: "PowerApps",
+        type: "Low/FastCodeDev",
     },
     {
-        imageUrl: nextjs,
-        name: "Next.js",
-        type: "Frontend",
+        imageUrl: powerautomate,
+        name: "PowerAutomate",
+        type: "Low/FastCodeDev",
     },
     {
-        imageUrl: nodejs,
-        name: "Node.js",
-        type: "Backend",
+        imageUrl: photoshop,
+        name: "Photoshop",
+        type: "Media",
     },
     {
-        imageUrl: react,
-        name: "React",
-        type: "Frontend",
+        imageUrl: premiere_pro,
+        name: "Premiere Pro",
+        type: "Media",
     },
-    {
-        imageUrl: redux,
-        name: "Redux",
-        type: "State Management",
-    },
-    {
-        imageUrl: sass,
-        name: "Sass",
-        type: "Frontend",
-    },
-    {
-        imageUrl: tailwindcss,
-        name: "Tailwind CSS",
-        type: "Frontend",
-    },
-    {
-        imageUrl: typescript,
-        name: "TypeScript",
-        type: "Frontend",
-    }
+    
 ];
 
 export const experiences = [
@@ -126,7 +145,7 @@ export const experiences = [
     {
         title: "React Native Developer",
         company_name: "Tesla",
-        icon: tesla,
+        icon: curteadeconturi,
         iconBg: "#fbc3bc",
         date: "Jan 2021 - Feb 2022",
         points: [
@@ -138,8 +157,8 @@ export const experiences = [
     },
     {
         title: "Web Developer",
-        company_name: "Shopify",
-        icon: shopify,
+        company_name: "GolfS",
+        icon: golfstudio,
         iconBg: "#b7e4c7",
         date: "Jan 2022 - Jan 2023",
         points: [
@@ -152,7 +171,46 @@ export const experiences = [
     {
         title: "Full stack Developer",
         company_name: "Meta",
-        icon: meta,
+        icon: htss,
+        iconBg: "#a2d2ff",
+        date: "Jan 2023 - Present",
+        points: [
+            "Developing and maintaining web applications using React.js and other related technologies.",
+            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+            "Implementing responsive design and ensuring cross-browser compatibility.",
+            "Participating in code reviews and providing constructive feedback to other developers.",
+        ],
+    },
+    {
+        title: "Full stack Developer",
+        company_name: "Meta",
+        icon: lacdeverde,
+        iconBg: "#a2d2ff",
+        date: "Jan 2023 - Present",
+        points: [
+            "Developing and maintaining web applications using React.js and other related technologies.",
+            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+            "Implementing responsive design and ensuring cross-browser compatibility.",
+            "Participating in code reviews and providing constructive feedback to other developers.",
+        ],
+    },
+    {
+        title: "Full stack Developer",
+        company_name: "Meta",
+        icon: opes,
+        iconBg: "#a2d2ff",
+        date: "Jan 2023 - Present",
+        points: [
+            "Developing and maintaining web applications using React.js and other related technologies.",
+            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+            "Implementing responsive design and ensuring cross-browser compatibility.",
+            "Participating in code reviews and providing constructive feedback to other developers.",
+        ],
+    },
+    {
+        title: "Full stack Developer",
+        company_name: "Meta",
+        icon: stejarii,
         iconBg: "#a2d2ff",
         date: "Jan 2023 - Present",
         points: [

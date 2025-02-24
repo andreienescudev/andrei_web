@@ -26,8 +26,20 @@ import arrow from './arrow.svg'
 import contact from './contact.svg'
 import soundon from './soundon.png'
 import soundoff from './soundoff.png'
+import dotnet from './dotnet.svg'
+import angular from './angular.svg'
+import figma from './figma.svg'
+import java from './java.svg'
+import photoshop from './photoshop.svg'
+import powerapps from './powerapps.svg'
+import powerautomate from './powerautomate.svg'
+import my_sql from './my_sql.svg'
+import premiere_pro from './premiere_pro.svg'
+import postgresql from './postgresql.svg'
 
 export {
+    postgresql,
+    my_sql,
     css,
     express,
     git,
@@ -55,5 +67,13 @@ export {
     arrow,
     contact,
     soundon,
-    soundoff
+    soundoff,
+    dotnet,
+    angular,
+    figma,
+    java,
+    photoshop,
+    powerapps,
+    powerautomate,
+    premiere_pro
 }
